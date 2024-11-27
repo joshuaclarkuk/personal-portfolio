@@ -1,0 +1,43 @@
+body * {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px red dotted;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+}
+
+.button-group button {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+    background-color: #707070;
+}
+
