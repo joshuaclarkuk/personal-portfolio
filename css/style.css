@@ -10,18 +10,24 @@ h1 {
 
 .navigation-bar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+    height: auto;
     width: 100%;
 }
 
 .logo {
-    position: absolute;
-    left: 50px;
+    text-align: center;
+    text-justify: auto;
     font-size: 24px;
     font-weight: bolder;
     color: black;
+    flex: 1;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
 }
 
 .button-group button {
@@ -39,5 +45,16 @@ h1 {
 
 .button-group button:hover {
     background-color: #707070;
+}
+
+.body-text {
+    margin: 40px;
+}
+
+.pdf-embed {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 900px;
 }
 
